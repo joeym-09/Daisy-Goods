@@ -1,0 +1,72 @@
+/*--------------------------------------------------------------
+  Template Name: Uniqlo-Minimalist eCommerce HTML5 Template.
+  Template URI: #
+  Description: Uniqlo is a unique website template designed in HTML with a simple & beautiful look. There is an excellent solution for creating clean, wonderful and trending material design corporate, corporate any other purposes websites.
+  Author: HasTech
+  Author URI: https://themeforest.net/user/hastech/portfolio
+  Version: 1.1
+---------------------------------------------------------------*/
+
+/* ----------------------------------------------------
+	You can put your custom css code here: 
+-------------------------------------------------------*/
+/* filter buttons */
+.filter-button
+{
+    color: #3a3a3a;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    border: none;
+    text-align: center;
+    margin-right: 5px;
+    text-decoration: underline;
+    padding: 5px 10px 5px 10px; 
+    border: 1px solid transparent; 
+    border-color: #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+}
+
+.filter-button.focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+  }
+  
+.filter-button:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+    text-decoration: none;
+  }
+
+/* Data-Title Description starts */
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #ffffff;
+    color: #8a8a8a;
+    font-size: 100%;
+    position: absolute;
+    padding: 1px 5px 2px 5px;
+    bottom: -1.6em;
+    left: 100%;
+    top: 100%; 
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+}
+
+[data-title] {
+    position: relative;
+}
+/* Data-Title Description ends */
